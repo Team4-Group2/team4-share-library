@@ -1,7 +1,6 @@
 def call(string repourl){
 pipeline {
        agent any
-
        stages {
            stage("Tools initialization") {
                steps {
